@@ -9,13 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                Text("Layout/Geometry Technique Project")
+                    .font(.title)
+                Spacer()
+                Section {
+                    NavigationLink {
+                        HowLayoutsWork()
+                    } label: {
+                        Text("HowLayoutsWork")
+                    }
+                    
+                    NavigationLink {
+                        AlignmentAndAlignmentGuides()
+                    } label: {
+                        Text("AlignmentAndAlignmentGuides")
+                    }
+                    
+                    NavigationLink {
+                        CustomAlignmentGuide()
+                    } label: {
+                        Text("CustomAlignmentGuide")
+                    }
+                    
+                    NavigationLink {
+                        AbsolutePositioning()
+                    } label: {
+                        Text("AbsolutePositioning")
+                    }
+                } header: {
+                    Text("Part One")
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 

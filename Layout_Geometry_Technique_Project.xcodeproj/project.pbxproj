@@ -11,6 +11,10 @@
 		4119842F2B96AFCE00346938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119842E2B96AFCE00346938 /* ContentView.swift */; };
 		411984312B96AFD400346938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411984302B96AFD400346938 /* Assets.xcassets */; };
 		411984342B96AFD400346938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411984332B96AFD400346938 /* Preview Assets.xcassets */; };
+		4119843B2B96B2F200346938 /* HowLayoutsWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119843A2B96B2F200346938 /* HowLayoutsWork.swift */; };
+		4119843D2B96B53E00346938 /* AlignmentAndAlignmentGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119843C2B96B53E00346938 /* AlignmentAndAlignmentGuides.swift */; };
+		4119843F2B96B90600346938 /* CustomAlignmentGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119843E2B96B90600346938 /* CustomAlignmentGuide.swift */; };
+		411984412B96BB5A00346938 /* AbsolutePositioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411984402B96BB5A00346938 /* AbsolutePositioning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		4119842E2B96AFCE00346938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		411984302B96AFD400346938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411984332B96AFD400346938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4119843A2B96B2F200346938 /* HowLayoutsWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowLayoutsWork.swift; sourceTree = "<group>"; };
+		4119843C2B96B53E00346938 /* AlignmentAndAlignmentGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAndAlignmentGuides.swift; sourceTree = "<group>"; };
+		4119843E2B96B90600346938 /* CustomAlignmentGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlignmentGuide.swift; sourceTree = "<group>"; };
+		411984402B96BB5A00346938 /* AbsolutePositioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				4119842C2B96AFCE00346938 /* Layout_Geometry_Technique_ProjectApp.swift */,
 				4119842E2B96AFCE00346938 /* ContentView.swift */,
+				4119843A2B96B2F200346938 /* HowLayoutsWork.swift */,
+				4119843C2B96B53E00346938 /* AlignmentAndAlignmentGuides.swift */,
+				4119843E2B96B90600346938 /* CustomAlignmentGuide.swift */,
+				411984402B96BB5A00346938 /* AbsolutePositioning.swift */,
 				411984302B96AFD400346938 /* Assets.xcassets */,
 				411984322B96AFD400346938 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4119843F2B96B90600346938 /* CustomAlignmentGuide.swift in Sources */,
 				4119842F2B96AFCE00346938 /* ContentView.swift in Sources */,
 				4119842D2B96AFCE00346938 /* Layout_Geometry_Technique_ProjectApp.swift in Sources */,
+				4119843D2B96B53E00346938 /* AlignmentAndAlignmentGuides.swift in Sources */,
+				411984412B96BB5A00346938 /* AbsolutePositioning.swift in Sources */,
+				4119843B2B96B2F200346938 /* HowLayoutsWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
