@@ -13,7 +13,9 @@ struct ContentView: View {
             VStack {
                 Text("Layout/Geometry Technique Project")
                     .font(.title)
+                
                 Spacer()
+                
                 Section {
                     NavigationLink {
                         HowLayoutsWork()
@@ -42,6 +44,8 @@ struct ContentView: View {
                     Text("Part One")
                 }
                 
+                Spacer()
+                
                 Section {
                     NavigationLink {
                         ResizeImagesGeometryReader()
@@ -69,6 +73,21 @@ struct ContentView: View {
                 } header: {
                     Text("Part Two")
                 }
+                
+                Spacer()
+                
+                Section {
+                    NavigationLink {
+                        Challenge()
+                    } label: {
+                        Text("Challenge")
+                    }
+                    
+                } header: {
+                    Text("Part Three")
+                }
+                
+                Spacer()
             }
             .padding()
         }

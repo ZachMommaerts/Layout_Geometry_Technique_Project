@@ -19,6 +19,7 @@
 		41436C042B9D036900B7CAC1 /* FramesAndCoordinatesGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41436C032B9D036900B7CAC1 /* FramesAndCoordinatesGeometryReader.swift */; };
 		41436C062B9D0A0C00B7CAC1 /* ScrollViewEffectsGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41436C052B9D0A0C00B7CAC1 /* ScrollViewEffectsGeometryReader.swift */; };
 		41436C082B9D0F0800B7CAC1 /* VisualEffectAndScrollTargetBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41436C072B9D0F0800B7CAC1 /* VisualEffectAndScrollTargetBehavior.swift */; };
+		41436C0A2B9D152D00B7CAC1 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41436C092B9D152D00B7CAC1 /* Challenge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		41436C032B9D036900B7CAC1 /* FramesAndCoordinatesGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FramesAndCoordinatesGeometryReader.swift; sourceTree = "<group>"; };
 		41436C052B9D0A0C00B7CAC1 /* ScrollViewEffectsGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEffectsGeometryReader.swift; sourceTree = "<group>"; };
 		41436C072B9D0F0800B7CAC1 /* VisualEffectAndScrollTargetBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectAndScrollTargetBehavior.swift; sourceTree = "<group>"; };
+		41436C092B9D152D00B7CAC1 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				41436C032B9D036900B7CAC1 /* FramesAndCoordinatesGeometryReader.swift */,
 				41436C052B9D0A0C00B7CAC1 /* ScrollViewEffectsGeometryReader.swift */,
 				41436C072B9D0F0800B7CAC1 /* VisualEffectAndScrollTargetBehavior.swift */,
+				41436C092B9D152D00B7CAC1 /* Challenge.swift */,
 				411984302B96AFD400346938 /* Assets.xcassets */,
 				411984322B96AFD400346938 /* Preview Content */,
 			);
@@ -165,6 +168,7 @@
 				4119842F2B96AFCE00346938 /* ContentView.swift in Sources */,
 				41436C022B9D00FF00B7CAC1 /* ResizeImagesGeometryReader.swift in Sources */,
 				4119842D2B96AFCE00346938 /* Layout_Geometry_Technique_ProjectApp.swift in Sources */,
+				41436C0A2B9D152D00B7CAC1 /* Challenge.swift in Sources */,
 				4119843D2B96B53E00346938 /* AlignmentAndAlignmentGuides.swift in Sources */,
 				411984412B96BB5A00346938 /* AbsolutePositioning.swift in Sources */,
 				41436C062B9D0A0C00B7CAC1 /* ScrollViewEffectsGeometryReader.swift in Sources */,
