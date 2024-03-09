@@ -41,6 +41,34 @@ struct ContentView: View {
                 } header: {
                     Text("Part One")
                 }
+                
+                Section {
+                    NavigationLink {
+                        ResizeImagesGeometryReader()
+                    } label: {
+                        Text("ResizeImagesGeometryReader")
+                    }
+                    
+                    NavigationLink {
+                        FramesAndCoordinatesGeometryReader()
+                    } label: {
+                        Text("FramesAndCoordinatesGeometryReader")
+                    }
+                    
+                    NavigationLink {
+                        ScrollViewEffectsGeometryReader()
+                    } label: {
+                        Text("ScrollViewEffectsGeometryReader")
+                    }
+                    
+                    NavigationLink {
+                        VisualEffectAndScrollTargetBehavior()
+                    } label: {
+                        Text("VisualEffectAndScrollTargetBehavior")
+                    }
+                } header: {
+                    Text("Part Two")
+                }
             }
             .padding()
         }
